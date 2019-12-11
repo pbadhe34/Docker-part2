@@ -1,0 +1,10 @@
+FROM tomcat:8.0-jre8 
+
+ 
+
+WORKDIR /usr/local/tomcat
+ 
+
+COPY user-service-env.war /usr/local/tomcat/webapps/user-service.war
+
+#EXPOSE 9090
